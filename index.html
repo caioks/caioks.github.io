@@ -48,9 +48,8 @@
     <!--Carousel-->
     <div
       id="carouselExampleCaptions"
-      class="carousel slide"
+      class="carousel slide main-padding"
       data-ride="carousel"
-      style="margin-top: 20px"
     >
       <ol class="carousel-indicators">
         <li
@@ -63,21 +62,21 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="..." class="d-block w-100" alt="..." />
+          <img src="img/pan.jpg" class="d-block w-100" alt="..." />
           <div class="carousel-caption d-none d-md-block">
             <h5>First slide label</h5>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="..." />
+          <img src="img/pan1.jpg" class="d-block w-100" alt="..." />
           <div class="carousel-caption d-none d-md-block">
             <h5>Second slide label</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="..." />
+          <img src="img/pan2.jpg" class="d-block w-100" alt="..." />
           <div class="carousel-caption d-none d-md-block">
             <h5>Third slide label</h5>
             <p>
@@ -106,13 +105,27 @@
       </a>
     </div>
 
+    <!--Card Section-->
+    <div class="card main-padding" style="width: 18rem">
+      <img src="img/certification.png" class="card-img-top" alt="Outsystems Certification" />
+      <div class="card-body">
+        <h5 class="card-title">Outsystems Certification</h5>
+        <p class="card-text">
+          Associate Traditional Web Developer
+        </p>
+        <a href="https://www.outsystems.com/profile/265627/learn" class="btn btn-primary">Check it here</a>
+      </div>
+    </div>
+
     <!--Pong Game-->
     <canvas
       id="gameCanvas"
+      class="main-padding"
       width="800"
       height="600"
-      style="margin-left: 20%; margin-bottom: 50px"
+      style="margin-left: 20%"
     ></canvas>
+    <div height="50"></div>
 
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="js/plugins.js"></script>

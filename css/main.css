@@ -267,3 +267,8 @@ textarea {
     border-radius: 2px;
     font-size: 28px;
   }
+
+  .main-padding{
+     padding-top: 10px;
+     padding-bottom: 10px;
+  }
