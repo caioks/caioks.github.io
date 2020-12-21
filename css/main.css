@@ -261,14 +261,36 @@ textarea {
   }
 }
 
-  .heading1{
-    text-align: center;
-    border: #000;
-    border-radius: 2px;
-    font-size: 28px;
-  }
+.heading1 {
+  text-align: center;
+  border: #000;
+  border-radius: 2px;
+  font-size: 28px;
+}
 
-  .main-padding{
-     padding-top: 10px;
-     padding-bottom: 10px;
-  }
+.main-padding {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.card-custom {
+  float: left;
+  border-radius: 5px;
+  box-shadow: -2px 3px 5px #888888;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #e9ecef;
+  width: 20%;
+}
+
+.border-card-margin{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.card-img-top{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

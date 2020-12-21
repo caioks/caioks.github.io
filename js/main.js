@@ -1,3 +1,15 @@
+
+
+
+
+
+
+
+
+
+
+
+/* !!!CODE FOR THE GAME!!! */
 console.log("Javascript is starting to run");
     // Declare variables
         var canvas = document.getElementById('gameCanvas');
